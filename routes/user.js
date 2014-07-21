@@ -2,7 +2,6 @@
 /*
  * GET users listing.
  */
-
-exports.list = function(req, res){
-  res.send("respond with a resource");
+exports.toLogin = function(req, res){
+    res.render('admin/login.html');
 };
