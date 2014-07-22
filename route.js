@@ -13,5 +13,6 @@ exports.setRouter = function(app){
 
     //admin
     app.get('/Admin',user.toLogin);
+    app.post('/Admin/login',user.login);
 };
 
